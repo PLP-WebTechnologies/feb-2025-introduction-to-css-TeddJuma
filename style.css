@@ -1,0 +1,54 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Image styling */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Ordered list styling */
+.roman-list {
+    list-style-type: upper-roman;
+    margin: 20px auto;
+    padding-left: 40px;
+}
+
+/* Table styling */
+.contact-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.contact-table th {
+    background-color: #f4f4f4;
+}
+
+/* Footer styles */
+#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
